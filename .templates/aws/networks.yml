@@ -1,0 +1,11 @@
+meta:
+  security_groups: (( param "please set meta security_groups" ))
+
+networks:
+  - name: floating
+    type: vip
+    cloud_properties: {}
+  - name: named1
+    type: dynamic
+    cloud_properties:
+      security_groups: (( grab meta.security_groups ))

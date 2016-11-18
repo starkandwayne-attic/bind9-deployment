@@ -1,0 +1,9 @@
+---
+compilation:
+  cloud_properties:
+    name: random
+
+resource_pools:
+  - name: named
+    cloud_properties:
+      name: random

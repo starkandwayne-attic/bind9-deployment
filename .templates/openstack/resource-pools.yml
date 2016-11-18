@@ -1,0 +1,10 @@
+---
+compilation:
+  cloud_properties:
+    instance_type: m1.medium
+
+resource_pools:
+  - name: named
+    cloud_properties:
+      instance_type: m1.medium
+

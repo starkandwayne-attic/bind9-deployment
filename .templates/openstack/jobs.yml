@@ -1,0 +1,10 @@
+---
+jobs:
+  - name: master
+    networks:
+      - name: named
+        static_ips: (( static_ips 0 ))
+  - name: slave
+    networks:
+      - name: named
+        static_ips: (( static_ips 1 2 ))

@@ -1,0 +1,8 @@
+---
+jobs:
+  - name: master
+    networks:
+      - name: named1
+  - name: slave
+    networks:
+      - name: named1
